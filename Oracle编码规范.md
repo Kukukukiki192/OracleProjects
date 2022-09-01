@@ -1,5 +1,3 @@
-
-
 [toc]
 
 > 编码规范的意义：代码美观，易于阅读理解/降低维护成本/降低出错概率/提升代码执行效率 感触：简单才是美
@@ -55,11 +53,16 @@
 **换行**
 
 1. 段语句单独成行
+
 2. 程序块之间用一个空行隔开
+
 3. 较长语句适当换行
+
 4. 在低优先级操作符处，操作符放在行首，并适当缩进
+
 5. 关键字独立成行：`DECLARE` `AS` `RETURN` `BEGIN` `END` `EXCEPTION`
-   <img src="https://img-blog.csdnimg.cn/ae1a61a11392409d87bd7a873a91868d.png"  width=30%/>
+
+    <img src="https://img-blog.csdnimg.cn/ae1a61a11392409d87bd7a873a91868d.png"  width=30%/>
 
 **格式**
 
