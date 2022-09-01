@@ -59,7 +59,7 @@
 3. 较长语句适当换行
 4. 在低优先级操作符处，操作符放在行首，并适当缩进
 5. 关键字独立成行：`DECLARE` `AS` `RETURN` `BEGIN` `END` `EXCEPTION`
-   <img src="https://img-blog.csdnimg.cn/b37a774be4564a0ab88e448fd546e7fb.png"  width=30%/>
+   <img src="https://img-blog.csdnimg.cn/ae1a61a11392409d87bd7a873a91868d.png"  width=30%/>
 
 **格式**
 
@@ -69,7 +69,9 @@
 
     <img src="https://img-blog.csdnimg.cn/c83aee43c0f54177826a6f01b130aa70.png"   width=36%/>
 
-3. insert语句中，select中的字段应与insert中的字段在位置上——对应<img src="https://img-blog.csdnimg.cn/fc2b6c2d56ff46659222e9064dbee886.png"   width=50%/>
+3. insert语句中，select中的字段应与insert中的字段在位置上——对应
+
+    <img src="https://img-blog.csdnimg.cn/fc2b6c2d56ff46659222e9064dbee886.png"   width=50%/>
 
 
 
@@ -92,19 +94,21 @@
 
 
 ### :four:语法
-1. 使用SQL99语法标准，连接条件写在 `on` 里，过滤条件写在 `where` 里<img src="https://img-blog.csdnimg.cn/bf27eac21eae471e801a86155aafb215.png"  width=40%/>
+1. 使用SQL99语法标准，连接条件写在 `on` 里，过滤条件写在 `where` 里
+
+    <img src="https://img-blog.csdnimg.cn/bf27eac21eae471e801a86155aafb215.png"  width=30%/>
 
 2. 不允许使用 `select *`，将需要的字段一一列出
 
-    <img src="https://img-blog.csdnimg.cn/32fc9b1dc61e4d3bb199903d40136ebd.png"  width=30%/>
+    <img src="https://img-blog.csdnimg.cn/32fc9b1dc61e4d3bb199903d40136ebd.png"  width=25%/>
 
 3. insert语句中必须列出要插入的字段名
 
-    <img src="https://img-blog.csdnimg.cn/a4d0ecef8cac4447baf05c8dbd140fca.png"  width=30%/>
+    <img src="https://img-blog.csdnimg.cn/a4d0ecef8cac4447baf05c8dbd140fca.png"  width=20%/>
 
 4. 当sql中涉及多个表时，字段名应+前缀表名/表别名，别名不要重复
 
-    <img src="https://img-blog.csdnimg.cn/e5da460ca8ca49b3b2f75a87a5a5ab6f.png"  width=50%/>
+    <img src="https://img-blog.csdnimg.cn/e5da460ca8ca49b3b2f75a87a5a5ab6f.png"  width=40%/>
 
 5. 尽量使用静态sql，少用动态sql
 
